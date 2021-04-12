@@ -1,0 +1,63 @@
+body {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    background-image: url(https://i.ibb.co/d03XMg5/2119966.jpg);
+    background-size: cover;
+    color: #EEEEEE;
+}
+
+main h1{
+    font-size: 2rem;
+    letter-spacing: 4px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 40px;
+    justify-content: flex-start;
+}
+
+.nav-brand {
+    width: 600px;
+}
+
+.quote {
+    font-family: 'Segoe UI';
+    font-size: 1rem;
+    letter-spacing: 4px;
+    line-height: 1.4rem;
+    width: 350px;
+    display: inline-flex;
+}
+
+.vote-me {
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: royalblue;
+    padding: 6px 6px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.main-section {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 400px));
+    grid-column-gap: 30px;
+    justify-content: center;
+    margin: 80px auto;
+}
+
+.caption {
+    width: 300px;
+    font-family: 'Segoe UI';
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
